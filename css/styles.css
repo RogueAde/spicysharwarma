@@ -1,0 +1,314 @@
+/* font-family: 'Noto Sans', sans-serif;
+font-family: 'Pacifico', cursive; */
+
+/* CSS classes creation */
+.btn-col{
+    background-color: #f58634;
+    color: black;
+}
+.btn-col:hover{
+    background-color: #864000;
+    color: #433d3c;
+}
+.text-col{
+    color: #f58634 !important;
+
+}
+.text-col:hover{
+    color: #d44000 !important;
+}
+.btn-outline-col{
+    border-color: #f58634;
+    color: #f58634;
+    margin-top: 5%;
+}
+.btn-outline-col:hover{
+    background-color: #f58634;
+    color: black;
+}
+.sharms{
+    font-weight: 900;
+}
+
+
+
+/* General */
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
+h2{
+    line-height: 2;
+    margin-bottom: 2%;
+    font-size: 3rem;
+}
+
+
+/* Div 1 */
+#section1{
+    padding: 0%;
+    background-image: url("../images/header.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* navbar */
+.nav-head{
+    font-family: 'Pacifico', cursive;
+    font-size: 2.4rem;
+    color: #f58634 !important;
+    margin-left: 0.4rem;
+}
+
+#navb-main{
+    font-size: 1rem;
+}
+
+.nav-item{
+    margin: 0 0.6rem ;
+    
+}
+.nav-item:hover{
+    font-size: 1.7rem;
+}
+.nav-cart{
+    font-size: 1.3rem;
+}
+.navbar-toggler{
+    background-color: #f58634;
+}
+
+/* Carousel */
+.caro{
+    text-align: center;
+    color: #fff;
+}
+
+.cars{
+    padding: 5rem 10rem;
+}
+.caro-p{
+    font-size: 1.3rem;
+}
+.caro-btn{
+    background-color: #f58634;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 100%;
+    margin: 12rem 3% 0;
+}
+
+/* Div 2 */
+#section2{
+    margin: 8% 0 9.5%;
+    background-color: #fff
+}
+
+.prod1{
+    margin-left: 10rem;
+}
+
+.expl1{
+    text-align: left;
+    line-height: 1.7;
+    margin-right: 5rem;
+    margin-top: 3rem;
+}
+
+/* Div 3 */
+#section3{
+    background-color: #433d3c;
+    color: #f58634;
+    padding: 7rem 3rem;
+    text-align: left;
+}
+
+.nood-img{
+    margin-left: 5rem;
+}
+
+.expl2{
+    line-height: 1.7;
+    margin-top: 3rem;
+    margin-left: 5rem;
+}
+
+/* Div 4 */
+#section4{
+    padding: 3% 7%;
+    line-height: 1.7;
+}
+
+.card-head{
+    font-weight: 900;
+    text-align: center;
+    color: #f58634;
+}
+
+.card{
+    border-color: #f58634;
+    border-radius: 10px;
+    padding: 3%;
+    border-style: groove;
+}
+.card:hover{
+    width: 22rem !important;
+}
+
+.card-title{
+    font-size: 1.32rem;
+    font-weight: 900;
+    color: #f58634;
+    margin-bottom: 9%;
+}
+
+.card-row{
+    padding: 5%;
+}
+
+/* Div 5 */
+
+#section5{
+    padding: 0%;
+    background-color: #433d3c;
+    background-image: url(../images/Rectangle\ 10.png);
+    background-position: 0vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.lastdivexp{
+    text-align: left;
+    padding: 3rem 6rem 4rem;
+    margin: 2% 2rem 7% 3rem;
+}
+
+.lasexphead{
+    color: #f58634;
+    font-size: 3.3rem;
+    font-weight: 700;
+    line-height: 1.28;
+    margin-bottom: 3rem;
+}
+.dotp{
+    color: rgba(207, 198, 198, 0.76);
+    font-size: 1.4rem;
+}
+#fintbtn{
+    visibility: hidden;
+}
+
+/* Last one oooo!!! */
+
+#lastdiv{
+    background-color: #433d3c;
+    padding: 0%;
+}
+
+.lastfuckfoot{
+    color: #f58634;
+    padding: 0.2rem 0 2rem 1.5rem;
+}
+
+.dondondon{
+    color: #f58634;
+    text-decoration: none;
+    margin: 1.5%;
+}
+
+.dondondon:hover{
+    color: #d44000;
+}
+
+.aweicons{
+    margin-left: 55%;
+}
+
+.copyrights{
+    margin-top: 80px;
+    position: relative;
+    top: 3.2rem;
+}
+
+
+
+
+/* Mobile Responsiveness */
+
+@media (max-width: 990px) {
+
+    /* Div 2 Mobile */
+   #section2{
+       text-align: center;
+   }
+
+   .prod1{
+       position: hidden;
+   }
+
+   .expl1{
+       text-align: center;
+   }
+
+   /* Div 3 Mobile */
+    #section3{
+        text-align: center;
+    }
+
+    .nood-img{
+        margin-top: 3rem;
+    }
+
+    /* Div 4 Mobile */
+    #section4{
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .card{
+        margin-bottom: 3%;
+    }
+
+    .card-head{
+        visibility: hidden;
+    }
+
+
+    /* Div 5 mobile */
+
+    #section5{
+        background-image: radial-gradient( #f58634, #d44000, #433d3c);
+    }
+    .lasexphead{
+        color: #433d3c;
+        text-align: center;
+    }
+    .dotp{
+        text-align: center;
+    }
+    #finbtn{
+        visibility: hidden;
+    }
+
+    #fintbtn{
+        visibility: visible;
+        text-align: center;
+        margin: 3rem 4rem 1.3rem 4rem;
+    }
+
+
+    /* last div mobile */
+
+    .aweicons{
+        margin-left: 20%;
+    }
+
+
+
+
+}
